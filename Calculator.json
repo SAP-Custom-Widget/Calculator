@@ -1,0 +1,36 @@
+{
+  "id": "com.rohitchouhan.sap.calculator",
+  "version": "1.0.0",
+  "name": "Calculator",
+  "description": "A simple calculator widget for SAP Analytics Cloud",
+  "newInstancePrefix": "Calculator",
+  "vendor": "rohitchouhan.com",
+  "eula": "rohitchouhan.com",
+  "license": "MIT",
+  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Calculator@1.0.0/icon.png",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-rohitchouhan-sap-calculator",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Calculator@1.0.0/dist/Calculator.bundle.js",
+      "integrity": "sha384-zw8rDs81oERFVZP8/YHOOGn/1t7n6iCbdUxww9zu/gWiLCcNuMsDyJ1hFsDyxeYG",
+      "ignoreIntegrity": false
+    },
+    {
+      "kind": "builder",
+      "tag": "com-rohitchouhan-sap-calculator-builder",
+      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/Calculator@1.0.0/dist/Calculator.bundle.js",
+      "integrity": "sha384-zw8rDs81oERFVZP8/YHOOGn/1t7n6iCbdUxww9zu/gWiLCcNuMsDyJ1hFsDyxeYG",
+      "ignoreIntegrity": false
+    }
+  ],
+  "properties": {
+    "notificationToggle": {
+      "type": "boolean",
+      "default": true,
+      "description": "Enable or disable notifications"
+    }
+  },
+  "methods": {},
+  "events": {}
+}
